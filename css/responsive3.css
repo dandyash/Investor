@@ -1,0 +1,265 @@
+/* RESPONSIVE */
+
+@media screen and (max-width: 1250px) {
+    header{
+        position: sticky;
+    }
+
+    .main-menu{
+        width: 100%;
+    }
+
+    .slider-content{
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .sub-menu-black{
+        display: none;
+    }
+
+    .sub-menu-white{
+        opacity: 1;
+    }
+
+    .menu-list{
+        display: none;
+    }
+
+    .openbtn{
+        display: block;
+    }
+
+    .btn-aqua img{
+        display: none;
+    }
+
+    .btn-white img{
+        display: none;
+    }
+
+    .btn-white{
+        /* width: 50%; */
+    }
+
+    .contact-us-container img{
+        display: none;
+    }
+
+    .services-card-container{
+        flex-direction: column;
+    }
+
+    .service-card{
+        max-width: 100%;
+    }
+
+    .service-card:not(:last-child){
+        border-right: none;
+        border-bottom: 2px solid whitesmoke;
+    }
+
+    .analysis-card{
+        max-width: 50%;
+    }
+
+    .fact-container{
+        flex-direction: column;
+        border: none;
+    }
+
+    .fact{
+        flex-direction: column;
+    }
+
+    .fact:not(:last-child){
+        border-right: none;
+        border-bottom: 2px solid rgb(52, 57, 63);
+    }
+
+    .video-flex-container{
+        flex-direction: column-reverse;
+    }
+
+    .video-content{
+        width: 100%;
+    }
+
+    .video-thumbnail{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 838px) {
+    .sub-flex-container.main-sub-container{
+        width: 100%;
+    }
+
+    .footer-separator{
+        display: none;
+    }
+
+    .contact-us-container{
+        gap: 20px;
+    }
+
+    .sub-flex-container{
+        width: 33%;
+    }
+
+    .contact-us-container{
+        flex-direction: column;
+    }
+
+    .contact-us-container p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 783px) {
+    .common-content{
+        font-size: 15px;
+    }
+
+    .slider-content h2{
+        font-size: 40px;
+    }
+    
+    .slider-content p{  
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .contact-us-container p{
+        font-size: 15px;
+    }
+
+    .video-thumbnail{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .sub-flex-container{
+        width: 100%;
+    }
+
+
+
+    .copyright-flex-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .copyright-right-block ul li{
+        margin: 0px 5px;
+    }
+
+    .analysis-card{
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .analysis-card:not(:last-child){
+        border-bottom: 2px solid lightgray;
+    }
+
+    .analysis-content{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .slider-content{
+        top: 10%;
+    }
+
+    .slider-content h2{
+        font-size: 30px;
+    }
+
+    .video-thumbnail{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .slider-content{
+        gap: 10px;
+    }
+
+    .video-thumbnail{
+        height: 250px;
+    }
+
+    .tab-links{
+        display: block;
+    }
+
+    .tab-links.active{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(0, 171, 201);
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .slider-content h2{
+        font-size: 25px;
+    }
+
+    .slider-content{
+        gap: 5px;
+    }
+
+    .common-header{
+        font-size: 20px;
+    }
+
+    .video-thumbnail{
+        height: 200px;
+    }
+
+    .copyright-left-block p{
+        font-size: xx-small;
+    }
+    
+    .copyright-right-block ul li a{
+        font-size: xx-small;
+    }
+
+    .project-btn-div a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .btn-aqua{
+        font-size: 10px;
+    }
+
+    .btn-white{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .slider-content h2{
+        font-size: 20px;
+    }
+
+    .slider-content p{
+        font-size: 14px;
+    }
+
+    .video-thumbnail{
+        height: 175px;
+    }
+}

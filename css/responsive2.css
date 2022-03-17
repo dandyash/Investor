@@ -1,0 +1,259 @@
+/* RESPONSIVE */
+
+@media screen and (max-width: 1250px) {
+    header{
+        position: sticky;
+    }
+
+    .main-menu{
+        width: 100%;
+    }
+
+    .slider-content{
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .sub-menu-black{
+        display: none;
+    }
+
+    .sub-menu-white{
+        opacity: 1;
+    }
+
+    .menu-list{
+        display: none;
+    }
+
+    .openbtn{
+        display: block;
+    }
+
+    .btn-gray{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 838px) {
+    .sub-flex-container.main-sub-container{
+        width: 100%;
+    }
+
+    .footer-separator{
+        display: none;
+    }
+
+    .contact-us-container{
+        gap: 20px;
+    }
+
+    .sub-flex-container{
+        width: 33%;
+    }
+
+    .fact{
+        gap: 20px;
+        padding: 20px 0px;
+    }
+    .fact.main-fact{
+        width: 100%;
+    }
+    
+    .banner-facts-container{
+        justify-content: space-evenly;
+    }
+
+    .fact{
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .fact.main-fact{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .fact.sub-fact{
+        width: 33.33%;
+    }
+
+    .analysis-card-container{
+        flex-direction: row;
+    }
+
+    .analysis-card-row{
+        flex-direction: column;
+    }
+
+    .analysis-card{
+        max-width: 100%;
+    }
+
+    .analysis-card:not(:last-child){
+        border-right: none;
+        border-bottom: 2px solid whitesmoke;
+    }
+
+    .analysis-card-row:first-child .analysis-card{
+        border-bottom: none;
+        border-bottom: 2px solid whitesmoke;
+    }
+}
+
+@media screen and (max-width: 783px) {
+    .common-content{
+        font-size: 15px;
+    }
+
+    .slider-content h2{
+        font-size: 40px;
+    }
+    
+    .slider-content p{  
+        font-size: 15px;
+    }
+
+    .data-img{
+        width: 100%;
+    }
+
+    .data-desc{
+        width: 100%;
+    }
+
+    .call-back{
+        flex-direction: column;
+    }
+
+    .call-back-desc{
+        width: 100%;
+    }
+
+    .call-back-form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .contact-us-container p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .sub-flex-container{
+        width: 100%;
+    }
+
+    .copyright-flex-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .copyright-right-block ul li{
+        margin: 0px 5px;
+    }
+
+    .contact-us-container img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .slider-content{
+        top: 10%;
+    }
+
+    .slider-content h2{
+        font-size: 30px;
+    }
+
+    .btn-gray{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .slider-content{
+        gap: 10px;
+    }
+
+    .contact-us-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fact.sub-fact{
+        width: 100%;
+    }
+
+    .fact:not(:first-child,:last-child){
+        border-right: none;
+        border-bottom: 2px solid rgb(82, 95, 112);
+    }
+
+    .btn-gray{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .btn-gray{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .slider-content h2{
+        font-size: 25px;
+    }
+
+    .slider-content{
+        gap: 5px;
+    }
+
+    .common-header{
+        font-size: 20px;
+    }
+
+    .btn-gray{
+        width: 150%;
+    }
+
+    .copyright-left-block p{
+        font-size: xx-small;
+    }
+    
+    .copyright-right-block ul li a{
+        font-size: xx-small;
+    }
+    
+    .data{
+        padding: 50px 20px;
+    }
+
+    .cb-container{
+        width: 100%;
+    }
+
+    .call-back{
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .slider-content h2{
+        font-size: 20px;
+    }
+
+    .slider-content p{
+        font-size: 14px;
+    }
+}
